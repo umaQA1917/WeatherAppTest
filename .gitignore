@@ -1,0 +1,7 @@
+node_modules
+results
+cypress/reports
+cypress/screenshots
+cypress/videos
+*.bak
+node_modules
