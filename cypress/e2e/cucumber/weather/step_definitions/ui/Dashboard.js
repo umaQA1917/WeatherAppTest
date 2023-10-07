@@ -15,9 +15,6 @@ Before(() => {
 
 Given(`Launch the weather dashboard page`, () => {
   cy.visit('/', dash.mockLocation(35.172744, 137.05802));
-  
-  cy.weatherAlias(location)
- 
 });
 
 Then(`Verify dashboard tile as {string}`, (title) => {

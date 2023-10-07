@@ -1,0 +1,122 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Mock Current Location Data and validate the Dashboard",
+    "line": 1,
+    "id": "mock-current-location-data-and-validate-the-dashboard",
+    "tags": [],
+    "uri": "Dashboard.feature",
+    "elements": [
+      {
+        "id": "mock-current-location-data-and-validate-the-dashboard;verify-current-location-with-temperature-in-celcius-is-appeared-in-dashboard",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "Verify current location with temperature in celcius is appeared in dashboard",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "Launch the weather dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 1150000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 6,
+            "name": "Verify dashboard tile as 'Dashboard'",
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "Verify current location as \"Oslo\"",
+            "result": {
+              "status": "passed",
+              "duration": 363000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "Verify current location 'Oslo' temperature as '14 °C'",
+            "result": {
+              "status": "passed",
+              "duration": 21000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "mock-current-location-data-and-validate-the-dashboard;verify-default-location(berlin-and-porto)-with-temperature-in-celceius-is-appeared-in-dashboard",
+        "keyword": "Scenario",
+        "line": 10,
+        "name": "Verify default location(Berlin and Porto) with temperature in celceius is appeared in dashboard",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 3,
+            "name": "Launch the weather dashboard page",
+            "result": {
+              "status": "passed",
+              "duration": 656000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "Verify default location as \"Berlin\"",
+            "result": {
+              "status": "passed",
+              "duration": 237000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 12,
+            "name": "Verify default location 'Berlin' temperature as '11 °C'",
+            "result": {
+              "status": "passed",
+              "duration": 29000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 13,
+            "name": "Verify default location as \"Porto\"",
+            "result": {
+              "status": "passed",
+              "duration": 81000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 14,
+            "name": "Verify default location 'Porto' temperature as '27 °C'",
+            "result": {
+              "status": "passed",
+              "duration": 26000000
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

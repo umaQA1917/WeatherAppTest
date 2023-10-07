@@ -1,7 +1,8 @@
 Feature: Mock Current Location Data for UI
     Background:
         Given Launch the weather dashboard page
-   #TC03 -Verify current and default location weather details
+   #TC03 -Verify current location weather details with Metric units
+   #TC04 -Verify default locations weather details with Metric units
     Scenario Outline: Verify current and default location weather details
         Given Click on current location as "<Location>" with "<Units>" unit
         Then Check weather details location title as "<Location>"

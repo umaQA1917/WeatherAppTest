@@ -6,8 +6,8 @@ const Lati = 52.090098
 const Long = 13.432944
 
 Given(`Click on current location as {string} with {string} unit`, (location, unit) => {
-  cy.interceptWeatherDetailsAPI(location, Lati, Long, 'Metric');
-  dash.location(location).click()
+  cy.interceptWeatherDetailsAPI(location, Lati, Long, unit);
+  dash.location(location).click({ timeout: 8000 })
   cy.weatherDetailsAlias(location)
 });
 

@@ -22,7 +22,7 @@
             "name": "I have a location \"Tranby\"",
             "result": {
               "status": "passed",
-              "duration": 399000000
+              "duration": 603000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I fetch the location details",
             "result": {
               "status": "passed",
-              "duration": 174000000
+              "duration": 434000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I fetch the weather details using the location and units",
             "result": {
               "status": "passed",
-              "duration": 45000000
+              "duration": 152000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "I have a location \"Oslo\"",
             "result": {
               "status": "passed",
-              "duration": 62000000
+              "duration": 249000000
             }
           },
           {
@@ -112,217 +112,7 @@
             "name": "I fetch the location details",
             "result": {
               "status": "passed",
-              "duration": 38000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "The response should include latitude and longitude",
-            "result": {
-              "status": "passed",
-              "duration": 10000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "I fetch the weather details using the location and units",
-            "result": {
-              "status": "passed",
-              "duration": 40000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 10,
-            "name": "The response should include temperature, sunrise, sunset,Humidity and Visibility",
-            "result": {
-              "status": "passed",
-              "duration": 17000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "verify-weather-details;get-latitude-and-longitude-and-verify-weather-details",
-        "keyword": "Scenario",
-        "line": 16,
-        "name": "Get latitude and longitude and Verify Weather Details",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "I have a location \"New York\"",
-            "result": {
-              "status": "passed",
-              "duration": 51000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "I have units \"Imperial\"",
-            "result": {
-              "status": "passed",
-              "duration": 2000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 7,
-            "name": "I fetch the location details",
-            "result": {
-              "status": "passed",
-              "duration": 43000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "The response should include latitude and longitude",
-            "result": {
-              "status": "passed",
-              "duration": 6000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "I fetch the weather details using the location and units",
-            "result": {
-              "status": "passed",
-              "duration": 42000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 10,
-            "name": "The response should include temperature, sunrise, sunset,Humidity and Visibility",
-            "result": {
-              "status": "passed",
-              "duration": 16000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "verify-weather-details;get-latitude-and-longitude-and-verify-weather-details",
-        "keyword": "Scenario",
-        "line": 17,
-        "name": "Get latitude and longitude and Verify Weather Details",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "I have a location \"London\"",
-            "result": {
-              "status": "passed",
-              "duration": 49000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "I have units \"Metric\"",
-            "result": {
-              "status": "passed",
-              "duration": 3000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 7,
-            "name": "I fetch the location details",
-            "result": {
-              "status": "passed",
-              "duration": 36000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 8,
-            "name": "The response should include latitude and longitude",
-            "result": {
-              "status": "passed",
-              "duration": 6000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 9,
-            "name": "I fetch the weather details using the location and units",
-            "result": {
-              "status": "passed",
-              "duration": 43000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 10,
-            "name": "The response should include temperature, sunrise, sunset,Humidity and Visibility",
-            "result": {
-              "status": "passed",
-              "duration": 15000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "verify-weather-details;get-latitude-and-longitude-and-verify-weather-details",
-        "keyword": "Scenario",
-        "line": 18,
-        "name": "Get latitude and longitude and Verify Weather Details",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 5,
-            "name": "I have a location \"OtherLocation\"",
-            "result": {
-              "status": "passed",
-              "duration": 58000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 6,
-            "name": "I have units \"Imperial\"",
-            "result": {
-              "status": "passed",
-              "duration": 2000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 7,
-            "name": "I fetch the location details",
-            "result": {
-              "status": "passed",
-              "duration": 41000000
+              "duration": 74000000
             }
           },
           {
@@ -342,7 +132,7 @@
             "name": "I fetch the weather details using the location and units",
             "result": {
               "status": "passed",
-              "duration": 39000000
+              "duration": 80000000
             }
           },
           {
@@ -352,7 +142,217 @@
             "name": "The response should include temperature, sunrise, sunset,Humidity and Visibility",
             "result": {
               "status": "passed",
-              "duration": 16000000
+              "duration": 18000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-weather-details;get-latitude-and-longitude-and-verify-weather-details",
+        "keyword": "Scenario",
+        "line": 16,
+        "name": "Get latitude and longitude and Verify Weather Details",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I have a location \"New York\"",
+            "result": {
+              "status": "passed",
+              "duration": 275000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I have units \"Imperial\"",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I fetch the location details",
+            "result": {
+              "status": "passed",
+              "duration": 79000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The response should include latitude and longitude",
+            "result": {
+              "status": "passed",
+              "duration": 12000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I fetch the weather details using the location and units",
+            "result": {
+              "status": "passed",
+              "duration": 166000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "The response should include temperature, sunrise, sunset,Humidity and Visibility",
+            "result": {
+              "status": "passed",
+              "duration": 33000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-weather-details;get-latitude-and-longitude-and-verify-weather-details",
+        "keyword": "Scenario",
+        "line": 17,
+        "name": "Get latitude and longitude and Verify Weather Details",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I have a location \"London\"",
+            "result": {
+              "status": "passed",
+              "duration": 346000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I have units \"Metric\"",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I fetch the location details",
+            "result": {
+              "status": "passed",
+              "duration": 107000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The response should include latitude and longitude",
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I fetch the weather details using the location and units",
+            "result": {
+              "status": "passed",
+              "duration": 103000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "The response should include temperature, sunrise, sunset,Humidity and Visibility",
+            "result": {
+              "status": "passed",
+              "duration": 36000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-weather-details;get-latitude-and-longitude-and-verify-weather-details",
+        "keyword": "Scenario",
+        "line": 18,
+        "name": "Get latitude and longitude and Verify Weather Details",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I have a location \"OtherLocation\"",
+            "result": {
+              "status": "passed",
+              "duration": 329000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 6,
+            "name": "I have units \"Imperial\"",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 7,
+            "name": "I fetch the location details",
+            "result": {
+              "status": "passed",
+              "duration": 67000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 8,
+            "name": "The response should include latitude and longitude",
+            "result": {
+              "status": "passed",
+              "duration": 8000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 9,
+            "name": "I fetch the weather details using the location and units",
+            "result": {
+              "status": "passed",
+              "duration": 92000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 10,
+            "name": "The response should include temperature, sunrise, sunset,Humidity and Visibility",
+            "result": {
+              "status": "passed",
+              "duration": 22000000
             }
           }
         ]
@@ -372,7 +372,7 @@
             "name": "I have a location \"Invalid\"",
             "result": {
               "status": "passed",
-              "duration": 47000000
+              "duration": 259000000
             }
           },
           {
@@ -382,7 +382,7 @@
             "name": "I have units \"Imperial\"",
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 3000000
             }
           },
           {
@@ -392,7 +392,7 @@
             "name": "I fetch the location details",
             "result": {
               "status": "passed",
-              "duration": 39000000
+              "duration": 82000000
             }
           },
           {
@@ -402,7 +402,7 @@
             "name": "The response should include latitude and longitude",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 7000000
             }
           },
           {
@@ -412,7 +412,7 @@
             "name": "I fetch the weather details using the location and units",
             "result": {
               "status": "passed",
-              "duration": 47000000
+              "duration": 107000000
             }
           }
         ]
@@ -432,7 +432,7 @@
             "name": "I have a location \"Tranby\"",
             "result": {
               "status": "passed",
-              "duration": 56000000
+              "duration": 226000000
             }
           },
           {
@@ -452,67 +452,7 @@
             "name": "I fetch the location details",
             "result": {
               "status": "passed",
-              "duration": 40000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 27,
-            "name": "The response should include latitude and longitude",
-            "result": {
-              "status": "passed",
-              "duration": 8000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 28,
-            "name": "I fetch the weather details using the location and units",
-            "result": {
-              "status": "passed",
-              "duration": 38000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "verify-weather-details;get-location,units-and-weather-details---negative-scenarios",
-        "keyword": "Scenario",
-        "line": 34,
-        "name": "Get Location,Units and Weather Details - Negative Scenarios",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 24,
-            "name": "I have a location \"NonExistentLocation\"",
-            "result": {
-              "status": "passed",
-              "duration": 39000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 25,
-            "name": "I have units \"Metric\"",
-            "result": {
-              "status": "passed",
-              "duration": 2000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 26,
-            "name": "I fetch the location details",
-            "result": {
-              "status": "passed",
-              "duration": 41000000
+              "duration": 138000000
             }
           },
           {
@@ -532,7 +472,67 @@
             "name": "I fetch the weather details using the location and units",
             "result": {
               "status": "passed",
-              "duration": 42000000
+              "duration": 93000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-weather-details;get-location,units-and-weather-details---negative-scenarios",
+        "keyword": "Scenario",
+        "line": 34,
+        "name": "Get Location,Units and Weather Details - Negative Scenarios",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "I have a location \"NonExistentLocation\"",
+            "result": {
+              "status": "passed",
+              "duration": 160000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I have units \"Metric\"",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I fetch the location details",
+            "result": {
+              "status": "passed",
+              "duration": 58000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "The response should include latitude and longitude",
+            "result": {
+              "status": "passed",
+              "duration": 7000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I fetch the weather details using the location and units",
+            "result": {
+              "status": "passed",
+              "duration": 76000000
             }
           }
         ]
@@ -552,7 +552,7 @@
             "name": "I have a location \"Tranby\"",
             "result": {
               "status": "passed",
-              "duration": 40000000
+              "duration": 151000000
             }
           },
           {
@@ -562,7 +562,7 @@
             "name": "I have units \"Imperial\"",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 2000000
             }
           },
           {
@@ -572,7 +572,7 @@
             "name": "I have an API key \"eb8a70f875f4e4baabc1399cec36e4b6\"",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 2000000
             }
           },
           {
@@ -582,7 +582,7 @@
             "name": "I fetch the location details",
             "result": {
               "status": "passed",
-              "duration": 37000000
+              "duration": 63000000
             }
           },
           {
@@ -592,7 +592,7 @@
             "name": "I fetch the weather details using the location, units, and API key",
             "result": {
               "status": "passed",
-              "duration": 77000000
+              "duration": 99000000
             }
           }
         ]
@@ -612,7 +612,7 @@
             "name": "I have a location \"Oslo\"",
             "result": {
               "status": "passed",
-              "duration": 39000000
+              "duration": 235000000
             }
           },
           {
@@ -632,7 +632,7 @@
             "name": "I have an API key \"INVALID_API_KEY\"",
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 3000000
             }
           },
           {
@@ -642,7 +642,7 @@
             "name": "I fetch the location details",
             "result": {
               "status": "passed",
-              "duration": 35000000
+              "duration": 63000000
             }
           },
           {
@@ -652,7 +652,7 @@
             "name": "I fetch the weather details using the location, units, and API key",
             "result": {
               "status": "passed",
-              "duration": 75000000
+              "duration": 107000000
             }
           }
         ]
@@ -672,127 +672,7 @@
             "name": "I have a location \"New York\"",
             "result": {
               "status": "passed",
-              "duration": 38000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 40,
-            "name": "I have units \"Imperial\"",
-            "result": {
-              "status": "passed",
-              "duration": 2000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 41,
-            "name": "I have an API key \"eb8a70f875f4e4baabc1399cec36e4b6\"",
-            "result": {
-              "status": "passed",
-              "duration": 2000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 42,
-            "name": "I fetch the location details",
-            "result": {
-              "status": "passed",
-              "duration": 40000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 43,
-            "name": "I fetch the weather details using the location, units, and API key",
-            "result": {
-              "status": "passed",
-              "duration": 85000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "verify-weather-details;get-location,units,api-key-and-weather-details---valid-and-invalid-api-keys",
-        "keyword": "Scenario",
-        "line": 50,
-        "name": "Get Location,Units,Api Key and Weather Details - Valid and Invalid API Keys",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 39,
-            "name": "I have a location \"London\"",
-            "result": {
-              "status": "passed",
-              "duration": 40000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 40,
-            "name": "I have units \"Metric\"",
-            "result": {
-              "status": "passed",
-              "duration": 2000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 41,
-            "name": "I have an API key \"INVALID_API_KEY\"",
-            "result": {
-              "status": "passed",
-              "duration": 2000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 42,
-            "name": "I fetch the location details",
-            "result": {
-              "status": "passed",
-              "duration": 36000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 43,
-            "name": "I fetch the weather details using the location, units, and API key",
-            "result": {
-              "status": "passed",
-              "duration": 82000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "verify-weather-details;get-location,units,api-key-and-weather-details---valid-and-invalid-api-keys",
-        "keyword": "Scenario",
-        "line": 51,
-        "name": "Get Location,Units,Api Key and Weather Details - Valid and Invalid API Keys",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 39,
-            "name": "I have a location \"OtherLocation\"",
-            "result": {
-              "status": "passed",
-              "duration": 37000000
+              "duration": 217000000
             }
           },
           {
@@ -812,7 +692,7 @@
             "name": "I have an API key \"eb8a70f875f4e4baabc1399cec36e4b6\"",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 2000000
             }
           },
           {
@@ -822,7 +702,7 @@
             "name": "I fetch the location details",
             "result": {
               "status": "passed",
-              "duration": 36000000
+              "duration": 68000000
             }
           },
           {
@@ -832,7 +712,127 @@
             "name": "I fetch the weather details using the location, units, and API key",
             "result": {
               "status": "passed",
-              "duration": 74000000
+              "duration": 113000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-weather-details;get-location,units,api-key-and-weather-details---valid-and-invalid-api-keys",
+        "keyword": "Scenario",
+        "line": 50,
+        "name": "Get Location,Units,Api Key and Weather Details - Valid and Invalid API Keys",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "I have a location \"London\"",
+            "result": {
+              "status": "passed",
+              "duration": 240000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I have units \"Metric\"",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "I have an API key \"INVALID_API_KEY\"",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "I fetch the location details",
+            "result": {
+              "status": "passed",
+              "duration": 82000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I fetch the weather details using the location, units, and API key",
+            "result": {
+              "status": "passed",
+              "duration": 118000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-weather-details;get-location,units,api-key-and-weather-details---valid-and-invalid-api-keys",
+        "keyword": "Scenario",
+        "line": 51,
+        "name": "Get Location,Units,Api Key and Weather Details - Valid and Invalid API Keys",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 39,
+            "name": "I have a location \"OtherLocation\"",
+            "result": {
+              "status": "passed",
+              "duration": 209000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 40,
+            "name": "I have units \"Imperial\"",
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 41,
+            "name": "I have an API key \"eb8a70f875f4e4baabc1399cec36e4b6\"",
+            "result": {
+              "status": "passed",
+              "duration": 3000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 42,
+            "name": "I fetch the location details",
+            "result": {
+              "status": "passed",
+              "duration": 71000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 43,
+            "name": "I fetch the weather details using the location, units, and API key",
+            "result": {
+              "status": "passed",
+              "duration": 115000000
             }
           }
         ]
