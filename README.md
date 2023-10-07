@@ -49,3 +49,4 @@ Weather Forecasting Application
 ### DashBoard
 #TC01-Verify current location with temperature in celcius is appeared in dashboard
 #TC02-Verify default location(Berlin and Porto) with temperature in celceius is appeared in dashboard
+#TC03 -Verify current and default location weather detail

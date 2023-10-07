@@ -1,20 +1,22 @@
 import { Before, Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
 import dash from '../../Pages/DashboardPage';
 
-
+const location = ['Oslo', 'Berlin', 'Porto']
+const latitude=[35.172744,52.090098,12]
+const longtitude =[137.0580,13.432944,13]
+const units = 'Metric'
 
 
 // Register a before hook to run code before the test starts
 Before(() => {
-  cy.interceptWeatherAPI();
-  
-
+  cy.interceptWeatherAPI(location,latitude,longtitude,units);
 });
 
 
 Given(`Launch the weather dashboard page`, () => {
   cy.visit('/', dash.mockLocation(35.172744, 137.05802));
-  cy.weatherAlias()
+  
+  cy.weatherAlias(location)
  
 });
 
