@@ -17,7 +17,7 @@ module.exports = defineConfig({
 
   e2e: {
     fixturesFolder:'cypress/fixtures' ,
-    supportFile: false,
+    supportFile: "cypress/support/e2e.js",
     setupNodeEvents(on, config) {
       cypressSplit(on, config)
 
@@ -29,6 +29,7 @@ module.exports = defineConfig({
       "ApiBaseUrl": "https://api.openweathermap.org",
       "YOUR_API_KEY":"eb8a70f875f4e4baabc1399cec36e4b6"
     },
+    baseUrl: 'http://localhost:3000/weather',
     specPattern:'cypress/e2e/cucumber/weather/Features/**/*.feature',
   },
 });

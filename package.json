@@ -31,8 +31,14 @@
       "pretest": "npm run clean:reports",
       "combine-reports": "mochawesome-merge cypress/reports/mocha/*.json > cypress/reports/mochareports/report.json",
       "generate-report": "marge cypress/reports/mochareports/report.json -f report -o cypress/reports/mochareports",  
-       "scripts":"cypress run --spec 'cypress/e2e/cucumber/weather/Features/api/WeatherApi.feature'",
-       "test": "npm run scripts || npm run posttest",
+       "chrome": "cypress run --browser chrome --spec 'cypress/e2e/cucumber/weather/Features/ui/*.feature'",
+       "firefox": "cypress run --browser firefox --spec 'cypress/e2e/cucumber/weather/Features/ui/*.feature'",
+       "api": "cypress run --spec 'cypress/e2e/cucumber/weather/Features/api/*.feature'",
+       "scripts": "cypress run",
+       "test_api":"npm run clean:reports && npm run api && npm run posttest || npm run posttest",
+       "browser-firefox": "npm run clean:reports && npm run firefox && npm run posttest || npm run posttest",
+       "browser-Chrome": "npm run clean:reports && npm run chrome && npm run posttest || npm run posttest", 
+       "test": "npm run scripts || npm run posttest",      
        "posttest": "npm run combine-reports && npm run generate-report"
     }
 
