@@ -1,4 +1,4 @@
-Feature: Mock Current Location Data for UI
+Feature: Validate the Weather Details
     Background:
         Given Launch the weather dashboard page
    #TC03 -Verify current location weather details with Metric units

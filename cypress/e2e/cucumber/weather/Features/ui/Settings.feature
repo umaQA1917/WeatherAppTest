@@ -1,4 +1,4 @@
-Feature: Validate Setting
+Feature: Validate the Settings
   Background:
     Given Launch the weather dashboard page
   #TC05-Validate GUI of setting page

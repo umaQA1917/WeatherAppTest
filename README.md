@@ -9,7 +9,6 @@ Weather Forecasting Application
  -Cypress with cucumber
  -Mochasome Report
 
-
 ## STEPS TO FOLLOW
 
 # Api:
@@ -54,8 +53,14 @@ Weather Forecasting Application
   ### TC03 -Verify current location weather details with Metric units
   ### TC04 -Verify default locations weather details with Metric units
 
-### Settings
+## Settings
   ### TC05-Validate GUI of setting page
   ### TC06-Add location with Imperical unit and verify weather details
   ### TC07-Verify weather details are appeared in Imperical uits
   ### TC08-Validate user able to remove the location
+
+# Run all test cases
+       - npm test
+
+
+# Circleci configured for parallel execution

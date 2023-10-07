@@ -1,4 +1,4 @@
-Feature: Mock Current Location Data and validate the Dashboard
+Feature: Validate the Dashboard
     Background:
         Given Launch the weather dashboard page
     #TC01-Verify current location with temperature in celcius is appeared in dashboard   

@@ -22,7 +22,7 @@
             "name": "I have a location \"Tranby\"",
             "result": {
               "status": "passed",
-              "duration": 603000000
+              "duration": 292000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "I have units \"Imperial\"",
             "result": {
               "status": "passed",
-              "duration": 4000000
+              "duration": 3000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "I fetch the location details",
             "result": {
               "status": "passed",
-              "duration": 434000000
+              "duration": 162000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "The response should include latitude and longitude",
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 11000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "I fetch the weather details using the location and units",
             "result": {
               "status": "passed",
-              "duration": 152000000
+              "duration": 42000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "The response should include temperature, sunrise, sunset,Humidity and Visibility",
             "result": {
               "status": "passed",
-              "duration": 19000000
+              "duration": 18000000
             }
           }
         ]
@@ -92,7 +92,7 @@
             "name": "I have a location \"Oslo\"",
             "result": {
               "status": "passed",
-              "duration": 249000000
+              "duration": 87000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "I fetch the location details",
             "result": {
               "status": "passed",
-              "duration": 74000000
+              "duration": 42000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "I fetch the weather details using the location and units",
             "result": {
               "status": "passed",
-              "duration": 80000000
+              "duration": 40000000
             }
           },
           {
@@ -142,7 +142,7 @@
             "name": "The response should include temperature, sunrise, sunset,Humidity and Visibility",
             "result": {
               "status": "passed",
-              "duration": 18000000
+              "duration": 16000000
             }
           }
         ]
@@ -162,7 +162,7 @@
             "name": "I have a location \"New York\"",
             "result": {
               "status": "passed",
-              "duration": 275000000
+              "duration": 76000000
             }
           },
           {
@@ -172,7 +172,7 @@
             "name": "I have units \"Imperial\"",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 3000000
             }
           },
           {
@@ -182,7 +182,7 @@
             "name": "I fetch the location details",
             "result": {
               "status": "passed",
-              "duration": 79000000
+              "duration": 45000000
             }
           },
           {
@@ -192,7 +192,7 @@
             "name": "The response should include latitude and longitude",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 9000000
             }
           },
           {
@@ -202,7 +202,7 @@
             "name": "I fetch the weather details using the location and units",
             "result": {
               "status": "passed",
-              "duration": 166000000
+              "duration": 38000000
             }
           },
           {
@@ -212,7 +212,7 @@
             "name": "The response should include temperature, sunrise, sunset,Humidity and Visibility",
             "result": {
               "status": "passed",
-              "duration": 33000000
+              "duration": 16000000
             }
           }
         ]
@@ -232,7 +232,7 @@
             "name": "I have a location \"London\"",
             "result": {
               "status": "passed",
-              "duration": 346000000
+              "duration": 83000000
             }
           },
           {
@@ -242,7 +242,7 @@
             "name": "I have units \"Metric\"",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 2000000
             }
           },
           {
@@ -252,7 +252,7 @@
             "name": "I fetch the location details",
             "result": {
               "status": "passed",
-              "duration": 107000000
+              "duration": 37000000
             }
           },
           {
@@ -262,7 +262,7 @@
             "name": "The response should include latitude and longitude",
             "result": {
               "status": "passed",
-              "duration": 18000000
+              "duration": 6000000
             }
           },
           {
@@ -272,7 +272,7 @@
             "name": "I fetch the weather details using the location and units",
             "result": {
               "status": "passed",
-              "duration": 103000000
+              "duration": 47000000
             }
           },
           {
@@ -282,7 +282,7 @@
             "name": "The response should include temperature, sunrise, sunset,Humidity and Visibility",
             "result": {
               "status": "passed",
-              "duration": 36000000
+              "duration": 43000000
             }
           }
         ]
@@ -302,7 +302,7 @@
             "name": "I have a location \"OtherLocation\"",
             "result": {
               "status": "passed",
-              "duration": 329000000
+              "duration": 99000000
             }
           },
           {
@@ -322,7 +322,7 @@
             "name": "I fetch the location details",
             "result": {
               "status": "passed",
-              "duration": 67000000
+              "duration": 37000000
             }
           },
           {
@@ -332,7 +332,7 @@
             "name": "The response should include latitude and longitude",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 6000000
             }
           },
           {
@@ -342,7 +342,7 @@
             "name": "I fetch the weather details using the location and units",
             "result": {
               "status": "passed",
-              "duration": 92000000
+              "duration": 37000000
             }
           },
           {
@@ -352,7 +352,7 @@
             "name": "The response should include temperature, sunrise, sunset,Humidity and Visibility",
             "result": {
               "status": "passed",
-              "duration": 22000000
+              "duration": 15000000
             }
           }
         ]
@@ -372,7 +372,7 @@
             "name": "I have a location \"Invalid\"",
             "result": {
               "status": "passed",
-              "duration": 259000000
+              "duration": 73000000
             }
           },
           {
@@ -382,7 +382,7 @@
             "name": "I have units \"Imperial\"",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 2000000
             }
           },
           {
@@ -392,67 +392,7 @@
             "name": "I fetch the location details",
             "result": {
               "status": "passed",
-              "duration": 82000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "Then ",
-            "line": 27,
-            "name": "The response should include latitude and longitude",
-            "result": {
-              "status": "passed",
-              "duration": 7000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 28,
-            "name": "I fetch the weather details using the location and units",
-            "result": {
-              "status": "passed",
-              "duration": 107000000
-            }
-          }
-        ]
-      },
-      {
-        "id": "verify-weather-details;get-location,units-and-weather-details---negative-scenarios",
-        "keyword": "Scenario",
-        "line": 33,
-        "name": "Get Location,Units and Weather Details - Negative Scenarios",
-        "tags": [],
-        "type": "scenario",
-        "steps": [
-          {
-            "arguments": [],
-            "keyword": "Given ",
-            "line": 24,
-            "name": "I have a location \"Tranby\"",
-            "result": {
-              "status": "passed",
-              "duration": 226000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "And ",
-            "line": 25,
-            "name": "I have units \"InvalidUnits\"",
-            "result": {
-              "status": "passed",
-              "duration": 4000000
-            }
-          },
-          {
-            "arguments": [],
-            "keyword": "When ",
-            "line": 26,
-            "name": "I fetch the location details",
-            "result": {
-              "status": "passed",
-              "duration": 138000000
+              "duration": 42000000
             }
           },
           {
@@ -472,7 +412,67 @@
             "name": "I fetch the weather details using the location and units",
             "result": {
               "status": "passed",
-              "duration": 93000000
+              "duration": 41000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "verify-weather-details;get-location,units-and-weather-details---negative-scenarios",
+        "keyword": "Scenario",
+        "line": 33,
+        "name": "Get Location,Units and Weather Details - Negative Scenarios",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "I have a location \"Tranby\"",
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I have units \"InvalidUnits\"",
+            "result": {
+              "status": "passed",
+              "duration": 6000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "I fetch the location details",
+            "result": {
+              "status": "passed",
+              "duration": 47000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "The response should include latitude and longitude",
+            "result": {
+              "status": "passed",
+              "duration": 9000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 28,
+            "name": "I fetch the weather details using the location and units",
+            "result": {
+              "status": "passed",
+              "duration": 89000000
             }
           }
         ]
@@ -492,7 +492,7 @@
             "name": "I have a location \"NonExistentLocation\"",
             "result": {
               "status": "passed",
-              "duration": 160000000
+              "duration": 62000000
             }
           },
           {
@@ -512,7 +512,7 @@
             "name": "I fetch the location details",
             "result": {
               "status": "passed",
-              "duration": 58000000
+              "duration": 43000000
             }
           },
           {
@@ -522,7 +522,7 @@
             "name": "The response should include latitude and longitude",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 6000000
             }
           },
           {
@@ -532,7 +532,7 @@
             "name": "I fetch the weather details using the location and units",
             "result": {
               "status": "passed",
-              "duration": 76000000
+              "duration": 39000000
             }
           }
         ]
@@ -552,7 +552,7 @@
             "name": "I have a location \"Tranby\"",
             "result": {
               "status": "passed",
-              "duration": 151000000
+              "duration": 66000000
             }
           },
           {
@@ -572,7 +572,7 @@
             "name": "I have an API key \"eb8a70f875f4e4baabc1399cec36e4b6\"",
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 4000000
             }
           },
           {
@@ -582,7 +582,7 @@
             "name": "I fetch the location details",
             "result": {
               "status": "passed",
-              "duration": 63000000
+              "duration": 35000000
             }
           },
           {
@@ -592,7 +592,7 @@
             "name": "I fetch the weather details using the location, units, and API key",
             "result": {
               "status": "passed",
-              "duration": 99000000
+              "duration": 77000000
             }
           }
         ]
@@ -612,7 +612,7 @@
             "name": "I have a location \"Oslo\"",
             "result": {
               "status": "passed",
-              "duration": 235000000
+              "duration": 65000000
             }
           },
           {
@@ -622,7 +622,7 @@
             "name": "I have units \"Metric\"",
             "result": {
               "status": "passed",
-              "duration": 2000000
+              "duration": 3000000
             }
           },
           {
@@ -632,7 +632,7 @@
             "name": "I have an API key \"INVALID_API_KEY\"",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 5000000
             }
           },
           {
@@ -642,7 +642,7 @@
             "name": "I fetch the location details",
             "result": {
               "status": "passed",
-              "duration": 63000000
+              "duration": 40000000
             }
           },
           {
@@ -652,7 +652,7 @@
             "name": "I fetch the weather details using the location, units, and API key",
             "result": {
               "status": "passed",
-              "duration": 107000000
+              "duration": 80000000
             }
           }
         ]
@@ -672,7 +672,7 @@
             "name": "I have a location \"New York\"",
             "result": {
               "status": "passed",
-              "duration": 217000000
+              "duration": 70000000
             }
           },
           {
@@ -682,7 +682,7 @@
             "name": "I have units \"Imperial\"",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 2000000
             }
           },
           {
@@ -702,7 +702,7 @@
             "name": "I fetch the location details",
             "result": {
               "status": "passed",
-              "duration": 68000000
+              "duration": 38000000
             }
           },
           {
@@ -712,7 +712,7 @@
             "name": "I fetch the weather details using the location, units, and API key",
             "result": {
               "status": "passed",
-              "duration": 113000000
+              "duration": 78000000
             }
           }
         ]
@@ -732,7 +732,7 @@
             "name": "I have a location \"London\"",
             "result": {
               "status": "passed",
-              "duration": 240000000
+              "duration": 68000000
             }
           },
           {
@@ -752,7 +752,7 @@
             "name": "I have an API key \"INVALID_API_KEY\"",
             "result": {
               "status": "passed",
-              "duration": 3000000
+              "duration": 2000000
             }
           },
           {
@@ -762,7 +762,7 @@
             "name": "I fetch the location details",
             "result": {
               "status": "passed",
-              "duration": 82000000
+              "duration": 39000000
             }
           },
           {
@@ -772,7 +772,7 @@
             "name": "I fetch the weather details using the location, units, and API key",
             "result": {
               "status": "passed",
-              "duration": 118000000
+              "duration": 79000000
             }
           }
         ]
@@ -792,7 +792,7 @@
             "name": "I have a location \"OtherLocation\"",
             "result": {
               "status": "passed",
-              "duration": 209000000
+              "duration": 61000000
             }
           },
           {
@@ -822,7 +822,7 @@
             "name": "I fetch the location details",
             "result": {
               "status": "passed",
-              "duration": 71000000
+              "duration": 37000000
             }
           },
           {
@@ -832,7 +832,7 @@
             "name": "I fetch the weather details using the location, units, and API key",
             "result": {
               "status": "passed",
-              "duration": 115000000
+              "duration": 79000000
             }
           }
         ]

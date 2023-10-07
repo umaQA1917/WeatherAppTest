@@ -1,0 +1,50 @@
+version: 2.1
+
+orbs:
+  cypress: cypress-io/cypress@1.29.0
+
+executors:
+  with-chrome-and-firefox:
+    docker:
+      - image: "cypress/browsers:node16.14.0-chrome99-ff97"
+    resource_class: large
+
+filter-master: &filter-master
+  branches:
+    only:
+      - master
+
+cypressparameters: &cypressParameters
+  filters: *filter-master
+  yarn: true
+  executor: with-chrome-and-firefox
+  browser: chrome
+  pre-steps:
+    - checkout
+    - run: yarn clean:reports
+  post-steps:
+    - run:
+        when: always
+        name: Generate and merge mochawesome reports
+        command: yarn send-reports-ci
+    - store_test_results:
+        path: cypress/reports/mochareports
+    - store_artifacts:
+        path: cypress/reports/mochareports
+    - store_artifacts:
+        path: cypress/screenshots
+    - store_artifacts:
+        path: cypress/videos
+
+workflows:
+  build1:
+    jobs:
+      - cypress/run:
+          <<: *cypressParameters
+          filters: *filter-master
+          parallelism: 3
+          # built-in CircleCI environment variables
+          # https://circleci.com/docs/variables/#built-in-environment-variables
+          build: npx @bahmutov/print-env CIRCLE
+          command: yarn cypress run --env split=true
+ 
