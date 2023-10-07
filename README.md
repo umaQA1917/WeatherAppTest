@@ -19,7 +19,7 @@ Weather Forecasting Application
 ## How to Execute the API Test Cases ?
 1. git Clone https://github.com/umaQA1917/WeatherAppTest.git
 2. npm install or yarn install
-3. npm test_api 
+3. npm run test_api or yarn test_api
 4. Mochasome Report to view results at WeatherAppTest\cypress\reports
 
 # Covered APi Testcases
@@ -40,8 +40,8 @@ Weather Forecasting Application
    - git Clone https://github.com/umaQA1917/WeatherAppTest.git
    - npm install or yarn install
 ## Run test in different browser
-   - npm browser-Chrome
-   - npm browser-firefox
+   - npm run browser-Chrome or yarn browser-Chrome
+   - npm run browser-firefox or yarn browser-firefox
    - Mochasome Report to view results at WeatherAppTest\cypress\reports
 
 # Covered UI Testcases
@@ -60,7 +60,7 @@ Weather Forecasting Application
   ### TC08-Validate user able to remove the location
 
 # Run all test cases
-       - npm test
+       - npm run test yarn test
 
 
 # Circleci configured for parallel execution
