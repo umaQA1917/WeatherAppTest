@@ -1,3 +1,4 @@
+/// <reference types="cypress" />
 import { Before, Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
 
 import setting from '../../Pages/SettingsPage';

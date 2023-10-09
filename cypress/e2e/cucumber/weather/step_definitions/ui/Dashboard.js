@@ -1,3 +1,4 @@
+/// <reference types="cypress" />
 import { Before, Given, When, Then } from 'cypress-cucumber-preprocessor/steps';
 import dash from '../../Pages/DashboardPage';
 
@@ -16,6 +17,13 @@ Before(() => {
 Given(`Launch the weather dashboard page`, () => {
   cy.visit('/', dash.mockLocation(35.172744, 137.05802));
 });
+
+
+Given(`Launch the weather dashboard page in mobile view`, () => {
+  cy.viewport('iphone-6')
+  cy.visit('/', dash.mockLocation(35.172744, 137.05802));
+});
+
 
 Then(`Verify dashboard tile as {string}`, (title) => {
   dash.dashboardTitle().contains(title).should('have.text', title)

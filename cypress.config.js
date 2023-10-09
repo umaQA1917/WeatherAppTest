@@ -3,6 +3,10 @@ const cypressSplit = require('cypress-split')
 const cucumber = require('cypress-cucumber-preprocessor').default
 module.exports = defineConfig({
   projectId: 'o8bzrb',
+  "defaultCommandTimeout": 6000,
+  "video":true,
+  "screenshotOnRunFailure":true,
+  retries: 2,
   reporter: 'cypress-multi-reporters',
   reporterOptions: {
     reporterEnabled: 'mochawesome',

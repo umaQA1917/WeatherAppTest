@@ -22,7 +22,7 @@
             "name": "Launch the weather dashboard page",
             "result": {
               "status": "passed",
-              "duration": 639000000
+              "duration": 1545000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "Click on current location as \"Oslo\" with \"Metric\" unit",
             "result": {
               "status": "passed",
-              "duration": 201000000
+              "duration": 623000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Check weather details location title as \"Oslo\"",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 57000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Check weather condtion as \"Clouds\"",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 254000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "Check temprature as \"14 °C\"",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 38000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "Check highest expected temperature \"H: 15 °C\"",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 33000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "Check lowest expected temperature \"L: 12 °C\"",
             "result": {
               "status": "passed",
-              "duration": 30000000
+              "duration": 33000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "Check Sunrise at \"7:30:43 AM\"",
             "result": {
               "status": "passed",
-              "duration": 18000000
+              "duration": 70000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "Check Sunset at \"6:40:15 PM\"",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 61000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "Check Humidity level in air \"52%\"",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 66000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "Check Visibility level in air \"10.0Km\"",
             "result": {
               "status": "passed",
-              "duration": 19000000
+              "duration": 59000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "Click on Back to Dashboard",
             "result": {
               "status": "passed",
-              "duration": 97000000
+              "duration": 410000000
             }
           }
         ]
@@ -152,7 +152,7 @@
             "name": "Launch the weather dashboard page",
             "result": {
               "status": "passed",
-              "duration": 241000000
+              "duration": 551000000
             }
           },
           {
@@ -162,7 +162,7 @@
             "name": "Click on current location as \"Berlin\" with \"Metric\" unit",
             "result": {
               "status": "passed",
-              "duration": 182000000
+              "duration": 266000000
             }
           },
           {
@@ -172,7 +172,7 @@
             "name": "Check weather details location title as \"Berlin\"",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 12000000
             }
           },
           {
@@ -182,7 +182,7 @@
             "name": "Check weather condtion as \"Mist\"",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 52000000
             }
           },
           {
@@ -192,7 +192,7 @@
             "name": "Check temprature as \"11 °C\"",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 10000000
             }
           },
           {
@@ -202,7 +202,7 @@
             "name": "Check highest expected temperature \"H: 19 °C\"",
             "result": {
               "status": "passed",
-              "duration": 6000000
+              "duration": 7000000
             }
           },
           {
@@ -212,7 +212,7 @@
             "name": "Check lowest expected temperature \"L: 10 °C\"",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 9000000
             }
           },
           {
@@ -222,7 +222,7 @@
             "name": "Check Sunrise at \"7:13:27 AM\"",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 16000000
             }
           },
           {
@@ -232,7 +232,7 @@
             "name": "Check Sunset at \"6:36:19 PM\"",
             "result": {
               "status": "passed",
-              "duration": 14000000
+              "duration": 22000000
             }
           },
           {
@@ -242,7 +242,7 @@
             "name": "Check Humidity level in air \"92%\"",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 26000000
             }
           },
           {
@@ -252,7 +252,7 @@
             "name": "Check Visibility level in air \"3.3Km\"",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 21000000
             }
           },
           {
@@ -262,7 +262,7 @@
             "name": "Click on Back to Dashboard",
             "result": {
               "status": "passed",
-              "duration": 84000000
+              "duration": 124000000
             }
           }
         ]
@@ -282,7 +282,7 @@
             "name": "Launch the weather dashboard page",
             "result": {
               "status": "passed",
-              "duration": 187000000
+              "duration": 390000000
             }
           },
           {
@@ -292,7 +292,7 @@
             "name": "Click on current location as \"Porto\" with \"Metric\" unit",
             "result": {
               "status": "passed",
-              "duration": 179000000
+              "duration": 342000000
             }
           },
           {
@@ -302,7 +302,7 @@
             "name": "Check weather details location title as \"Porto\"",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 17000000
             }
           },
           {
@@ -312,7 +312,7 @@
             "name": "Check weather condtion as \"Clear\"",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 71000000
             }
           },
           {
@@ -322,7 +322,7 @@
             "name": "Check temprature as \"27 °C\"",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 15000000
             }
           },
           {
@@ -332,7 +332,7 @@
             "name": "Check highest expected temperature \"H: 30 °C\"",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 19000000
             }
           },
           {
@@ -342,7 +342,7 @@
             "name": "Check lowest expected temperature \"L: 23 °C\"",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 18000000
             }
           },
           {
@@ -352,7 +352,7 @@
             "name": "Check Sunrise at \"8:35:40 AM\"",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 31000000
             }
           },
           {
@@ -362,7 +362,7 @@
             "name": "Check Sunset at \"8:09:26 PM\"",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 26000000
             }
           },
           {
@@ -372,7 +372,7 @@
             "name": "Check Humidity level in air \"50%\"",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 28000000
             }
           },
           {
@@ -382,7 +382,7 @@
             "name": "Check Visibility level in air \"10.0Km\"",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 29000000
             }
           },
           {
@@ -392,7 +392,7 @@
             "name": "Click on Back to Dashboard",
             "result": {
               "status": "passed",
-              "duration": 109000000
+              "duration": 135000000
             }
           }
         ]

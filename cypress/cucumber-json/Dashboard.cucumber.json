@@ -22,7 +22,7 @@
             "name": "Launch the weather dashboard page",
             "result": {
               "status": "passed",
-              "duration": 792000000
+              "duration": 2088000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "Verify dashboard tile as 'Dashboard'",
             "result": {
               "status": "passed",
-              "duration": 40000000
+              "duration": 122000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Verify current location as \"Oslo\"",
             "result": {
               "status": "passed",
-              "duration": 347000000
+              "duration": 416000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Verify current location 'Oslo' temperature as '14 °C'",
             "result": {
               "status": "passed",
-              "duration": 17000000
+              "duration": 84000000
             }
           }
         ]
@@ -72,7 +72,7 @@
             "name": "Launch the weather dashboard page",
             "result": {
               "status": "passed",
-              "duration": 295000000
+              "duration": 837000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "Verify default location as \"Berlin\"",
             "result": {
               "status": "passed",
-              "duration": 108000000
+              "duration": 215000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "Verify default location 'Berlin' temperature as '11 °C'",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 29000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "Verify default location as \"Porto\"",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 88000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "Verify default location 'Porto' temperature as '27 °C'",
             "result": {
               "status": "passed",
-              "duration": 10000000
+              "duration": 30000000
             }
           }
         ]

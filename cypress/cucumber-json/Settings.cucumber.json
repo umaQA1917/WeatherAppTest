@@ -22,7 +22,7 @@
             "name": "Launch the weather dashboard page",
             "result": {
               "status": "passed",
-              "duration": 680000000
+              "duration": 2399000000
             }
           },
           {
@@ -32,7 +32,7 @@
             "name": "Click on settings",
             "result": {
               "status": "passed",
-              "duration": 134000000
+              "duration": 428000000
             }
           },
           {
@@ -42,7 +42,7 @@
             "name": "Check page title as 'Settings'",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 60000000
             }
           },
           {
@@ -52,7 +52,7 @@
             "name": "Check 'Locations' heading is present",
             "result": {
               "status": "passed",
-              "duration": 13000000
+              "duration": 121000000
             }
           },
           {
@@ -62,7 +62,7 @@
             "name": "Check 'Select the locations you want to see' information is present below locations",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 126000000
             }
           },
           {
@@ -72,7 +72,7 @@
             "name": "Check exisitng selected location as 'Berlin' is present",
             "result": {
               "status": "passed",
-              "duration": 15000000
+              "duration": 108000000
             }
           },
           {
@@ -82,7 +82,7 @@
             "name": "Check exisitng selected location as 'Porto' is present",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 131000000
             }
           },
           {
@@ -92,7 +92,7 @@
             "name": "Check Add location is present",
             "result": {
               "status": "passed",
-              "duration": 43000000
+              "duration": 112000000
             }
           },
           {
@@ -102,7 +102,7 @@
             "name": "Check 'Units' heading for location is present",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 143000000
             }
           },
           {
@@ -112,7 +112,7 @@
             "name": "Check 'Select the unit system of your preference' information is present below units",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 133000000
             }
           },
           {
@@ -122,7 +122,7 @@
             "name": "Check 'Metric ✅' unit is selected defaulty",
             "result": {
               "status": "passed",
-              "duration": 15000000
+              "duration": 176000000
             }
           },
           {
@@ -132,7 +132,7 @@
             "name": "Able to select 'Imperial ⬜' unit",
             "result": {
               "status": "passed",
-              "duration": 108000000
+              "duration": 1119000000
             }
           }
         ]
@@ -152,7 +152,7 @@
             "name": "Launch the weather dashboard page",
             "result": {
               "status": "passed",
-              "duration": 229000000
+              "duration": 719000000
             }
           },
           {
@@ -162,7 +162,7 @@
             "name": "Click on settings",
             "result": {
               "status": "passed",
-              "duration": 104000000
+              "duration": 188000000
             }
           },
           {
@@ -172,7 +172,7 @@
             "name": "Enter the location name as \"London\"",
             "result": {
               "status": "passed",
-              "duration": 100000000
+              "duration": 178000000
             }
           },
           {
@@ -182,7 +182,7 @@
             "name": "Check exisitng selected location as 'London' is present",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 38000000
             }
           },
           {
@@ -192,7 +192,7 @@
             "name": "Able to select 'Imperial ⬜' unit",
             "result": {
               "status": "passed",
-              "duration": 122000000
+              "duration": 184000000
             }
           },
           {
@@ -202,7 +202,7 @@
             "name": "Click on Back to Dashboard",
             "result": {
               "status": "passed",
-              "duration": 92000000
+              "duration": 144000000
             }
           },
           {
@@ -212,7 +212,7 @@
             "name": "Verify \"London\" is present in dashboard",
             "result": {
               "status": "passed",
-              "duration": 148000000
+              "duration": 226000000
             }
           },
           {
@@ -222,7 +222,7 @@
             "name": "Click on current location as \"London\" with \"Imperial\" unit",
             "result": {
               "status": "passed",
-              "duration": 116000000
+              "duration": 246000000
             }
           },
           {
@@ -232,7 +232,7 @@
             "name": "Check weather details location title as \"London\"",
             "result": {
               "status": "passed",
-              "duration": 12000000
+              "duration": 18000000
             }
           },
           {
@@ -242,7 +242,7 @@
             "name": "Check weather condtion as \"Clouds\"",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 15000000
             }
           },
           {
@@ -252,7 +252,7 @@
             "name": "Check temprature as \"69 °F\"",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 15000000
             }
           },
           {
@@ -262,7 +262,7 @@
             "name": "Check highest expected temperature \"H: 71 °F\"",
             "result": {
               "status": "passed",
-              "duration": 5000000
+              "duration": 21000000
             }
           },
           {
@@ -272,7 +272,7 @@
             "name": "Check lowest expected temperature \"L: 67 °F\"",
             "result": {
               "status": "passed",
-              "duration": 7000000
+              "duration": 14000000
             }
           },
           {
@@ -282,7 +282,7 @@
             "name": "Check Sunrise at \"8:08:29 AM\"",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 42000000
             }
           },
           {
@@ -292,7 +292,7 @@
             "name": "Check Sunset at \"7:28:46 PM\"",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 30000000
             }
           },
           {
@@ -302,7 +302,7 @@
             "name": "Check Humidity level in air \"68%\"",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 25000000
             }
           },
           {
@@ -312,7 +312,7 @@
             "name": "Check Visibility level in air \"10.0Km\"",
             "result": {
               "status": "passed",
-              "duration": 9000000
+              "duration": 37000000
             }
           },
           {
@@ -322,7 +322,7 @@
             "name": "Click on Back to Dashboard",
             "result": {
               "status": "passed",
-              "duration": 85000000
+              "duration": 130000000
             }
           }
         ]
@@ -342,7 +342,7 @@
             "name": "Launch the weather dashboard page",
             "result": {
               "status": "passed",
-              "duration": 203000000
+              "duration": 548000000
             }
           },
           {
@@ -352,7 +352,7 @@
             "name": "Click on settings",
             "result": {
               "status": "passed",
-              "duration": 103000000
+              "duration": 134000000
             }
           },
           {
@@ -362,7 +362,7 @@
             "name": "Enter the location name as \"London\"",
             "result": {
               "status": "passed",
-              "duration": 100000000
+              "duration": 142000000
             }
           },
           {
@@ -372,7 +372,7 @@
             "name": "Check exisitng selected location as \"London\" is present",
             "result": {
               "status": "passed",
-              "duration": 11000000
+              "duration": 49000000
             }
           },
           {
@@ -382,7 +382,7 @@
             "name": "Click on Back to Dashboard",
             "result": {
               "status": "passed",
-              "duration": 83000000
+              "duration": 124000000
             }
           },
           {
@@ -392,7 +392,7 @@
             "name": "Verify \"London\" is present in dashboard",
             "result": {
               "status": "passed",
-              "duration": 93000000
+              "duration": 259000000
             }
           },
           {
@@ -402,7 +402,7 @@
             "name": "Click on settings",
             "result": {
               "status": "passed",
-              "duration": 96000000
+              "duration": 112000000
             }
           },
           {
@@ -412,7 +412,7 @@
             "name": "Click on remove \"London\" location",
             "result": {
               "status": "passed",
-              "duration": 84000000
+              "duration": 126000000
             }
           },
           {
@@ -422,7 +422,7 @@
             "name": "Check exisitng selected location as \"London\" is not present",
             "result": {
               "status": "passed",
-              "duration": 8000000
+              "duration": 42000000
             }
           }
         ]
